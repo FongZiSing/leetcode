@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="h1.gif" width="250"/></a>
+  <img src="image/h1.gif" width="250"/></a>
   <h3 align="center">leetcode刷题小组</h3>
 </p>
 
