@@ -12,6 +12,7 @@
 * 知乎文章： [关于一切位操作的魔法（上）](https://zhuanlan.zhihu.com/p/37014715?utm_source=qq&utm_medium=social&utm_oi=829394553948749824)
 * 知乎文章： [关于一切位操作的魔法（中）](https://zhuanlan.zhihu.com/p/37175153?utm_source=qq&utm_medium=social&utm_oi=829394553948749824)
 * 知乎文章： [位运算有什么奇技淫巧？](https://www.zhihu.com/question/38206659/answer/736472332?utm_source=qq&utm_medium=social&utm_oi=829394553948749824)
+* c++技巧与设计模式：[cpppatterns.com](https://cpppatterns.com/)
 > 补充：github的markdown支持[`emoji`](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 <br/>
