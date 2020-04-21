@@ -1,0 +1,29 @@
+// 双指针 滑动窗口
+class Solution {
+public:
+    int minSubArrayLen(int s, vector<int>& nums) {
+        int left = 0; 
+        int right = 0;
+
+        int window = 0;
+        int res = std::numeric_limits<int>::max();
+        while(right < nums.size())
+        {
+            window += nums[right];
+            while(window >= s)
+            {
+            if(window >= s && right -left + 1 < res) res = right-left+1;
+
+                window -= nums[left];
+                left++;
+            }
+
+            if(window >= s && right -left + 1 < res) res = right-left+1;
+
+            right++;
+
+            
+        }
+        return res == std::numeric_limits<int>::max()? 0:res;
+    }
+};
