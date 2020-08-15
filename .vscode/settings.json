@@ -1,3 +1,18 @@
 {
+    "search.exclude": {
+        "**/.vscode": true,
+    },
+    "files.exclude": {
+        "**/.vscode": true,
+    },
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Stroustrup, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4, PointerAlignment: Left, FixNamespaceComments : false, NamespaceIndentation : All, }",
+    "files.associations": {
+        "algorithm": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "execution": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
+    },
 }
